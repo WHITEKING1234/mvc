@@ -1,0 +1,6 @@
+framework module Pods_mvc_mvcUITests {
+  umbrella header "Pods-mvc-mvcUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
