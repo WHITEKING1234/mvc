@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045336FE2A06EAE00058EEB5 /* UserDef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045336FD2A06EAE00058EEB5 /* UserDef.swift */; };
+		045337002A08EF330058EEB5 /* FavoriteTableViewCel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045336FF2A08EF330058EEB5 /* FavoriteTableViewCel.swift */; };
 		04D3137829FA6E3D00FE9C17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D3137729FA6E3D00FE9C17 /* AppDelegate.swift */; };
 		04D3137A29FA6E3D00FE9C17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D3137929FA6E3D00FE9C17 /* SceneDelegate.swift */; };
 		04D3137C29FA6E3D00FE9C17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D3137B29FA6E3D00FE9C17 /* ViewController.swift */; };
@@ -46,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		045336FD2A06EAE00058EEB5 /* UserDef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDef.swift; sourceTree = "<group>"; };
+		045336FF2A08EF330058EEB5 /* FavoriteTableViewCel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FavoriteTableViewCel.swift; path = ../../FavoriteTableViewCel.swift; sourceTree = "<group>"; };
 		04D3137429FA6E3D00FE9C17 /* mvc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mvc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D3137729FA6E3D00FE9C17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04D3137929FA6E3D00FE9C17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +109,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		045336FC2A06EAC70058EEB5 /* UserDef */ = {
+			isa = PBXGroup;
+			children = (
+				045336FD2A06EAE00058EEB5 /* UserDef.swift */,
+			);
+			path = UserDef;
+			sourceTree = "<group>";
+		};
 		04D3136B29FA6E3D00FE9C17 = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +142,7 @@
 		04D3137629FA6E3D00FE9C17 /* mvc */ = {
 			isa = PBXGroup;
 			children = (
+				045336FC2A06EAC70058EEB5 /* UserDef */,
 				04D313AD29FA6F7D00FE9C17 /* main */,
 				04D3137729FA6E3D00FE9C17 /* AppDelegate.swift */,
 				04D3137929FA6E3D00FE9C17 /* SceneDelegate.swift */,
@@ -142,6 +155,7 @@
 				04D313A929FA6F3700FE9C17 /* Tabbar.swift */,
 				04D313AB29FA6F4F00FE9C17 /* Netwokr.swift */,
 				04D313B629FA708200FE9C17 /* FavouriteViewController.swift */,
+				045336FF2A08EF330058EEB5 /* FavoriteTableViewCel.swift */,
 			);
 			path = mvc;
 			sourceTree = "<group>";
@@ -443,8 +457,10 @@
 				04D3137829FA6E3D00FE9C17 /* AppDelegate.swift in Sources */,
 				04D313B529FA700100FE9C17 /* mainconrt.swift in Sources */,
 				04D3137A29FA6E3D00FE9C17 /* SceneDelegate.swift in Sources */,
+				045337002A08EF330058EEB5 /* FavoriteTableViewCel.swift in Sources */,
 				04D313B729FA708200FE9C17 /* FavouriteViewController.swift in Sources */,
 				04D313B129FA6FA800FE9C17 /* model.swift in Sources */,
+				045336FE2A06EAE00058EEB5 /* UserDef.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
